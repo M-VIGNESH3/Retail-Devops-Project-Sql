@@ -32,7 +32,7 @@ spec:
       volumes:
       - name: mysql-storage
         persistentVolumeClaim: 
-            claimName: mysql-storage
+            claimName: retail-pvc
 ---
 apiVersion: v1
 kind: Service
